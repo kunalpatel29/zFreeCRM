@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Suite">
+<listeners>
+	<listener class-name="extentReportListener.ExtentReportListener"/>
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="initialTest.LoginTest"/>
+      <class name="initialTest.ContactsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
